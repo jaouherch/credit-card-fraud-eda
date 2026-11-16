@@ -1,0 +1,23 @@
+# Third-party dataset and generated analysis output
+data/*.csv
+outputs/
+
+# R / RStudio local state
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# LaTeX intermediate files (the finished report PDF is intentionally included)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+docs/report.html
+
+# Miscellaneous machine files
+.DS_Store
+Thumbs.db
